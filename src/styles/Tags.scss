@@ -1,0 +1,28 @@
+//Tags 
+.Tags {
+  background: white;
+  border-radius: 10px;
+  padding: 1.2rem;
+  width: 508px;
+  margin-bottom: 1.2rem;
+  text-align: center;
+
+  &-container {
+    margin-top: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-link {
+    color:  #6bc2eb;
+    border: 1px solid #6bc2eb;
+    padding: 0.5rem;
+    border-radius: 5px;
+    &:hover {
+      background-color: #6bc2eb;
+      color: white;
+      transition: ease-in 0.2s;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@import './styles/Post.scss';
+@import './styles/Profile.scss';
+@import './styles/Tags.scss';
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 40%;
+  margin: auto;
+
+  &-picto {
+    width: 85px;
+  }
+  
+  &-link {
+    color: #61dafb;
+  }
+}

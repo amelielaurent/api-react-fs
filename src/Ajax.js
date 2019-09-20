@@ -18,7 +18,6 @@ req.addEventListener("load", function () {
         fcDatas = JSON.parse(req.responseText);
         
         const profile = fcDatas.profile.name;
-        console.log(profile);
         document.querySelector(".Profile-title").innerHTML = "Hello " + profile +" ! La communauté t'écoute.";
     } else {
         // Affichage des informations sur l'échec du traitement de la requête

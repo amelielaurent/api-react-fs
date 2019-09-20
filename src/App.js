@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import './Ajax.js';
 import Tags from './component/Tags';
 import flag from './assets/flag_grey.svg';

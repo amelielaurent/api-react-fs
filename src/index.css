@@ -12,3 +12,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+h4 {
+  color : #6bc2eb;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
