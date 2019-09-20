@@ -101,4 +101,5 @@ h4 {
   background-color: #6bc2eb;
   color: white;
   transition: ease-in 0.2s;
+  cursor: pointer;
 }

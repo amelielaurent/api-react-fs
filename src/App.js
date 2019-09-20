@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
 import './Ajax.js';
-import Tags from './Component/Tags';
-import flag from './flag_grey.svg';
-import share from './share_grey.svg';
+import Tags from './component/Tags';
+import flag from './assets/flag_grey.svg';
+import share from './assets/share_grey.svg';
 
 function App() {
   return (
