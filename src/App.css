@@ -1,33 +1,104 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  max-width: 40%;
+  margin: auto;
+}
+
+.App-picto {
+  width: 85px;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Post-container {
+  background-color: white; 
+  border-radius: 10px;
+  padding: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.Post-tags {
+  font-weight: bold;
+}
+
+.Post-contract {
+  color: gray;
+  font-size: 14px;
+  margin: 0;
+}
+
+.Post-comments {
+  font-size: 14px;
+  color : #6bc2eb;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-bottom: 2px solid #6bc2eb;
+  padding-bottom: 0.5rem;
+}
+
+.Post-input {
+  margin-top: 1rem;
+  background: #f2f9fc;
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  opacity: 0.5;
+  padding-left: 0.5rem;
+}
+
+h4 {
+  color : #6bc2eb;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.Profile {
+  background: white;
+  border-radius: 10px;
+  margin-top: 4rem;
+  padding: 1.2rem;
+  margin-bottom: 1.2rem;
+  width: 508px;
+  text-align: center;
+}
+
+.Profile-action {
+  display: flex;
+  justify-content: space-around;
+  color: lightgray;
+  margin-top: 2rem;
+}
+
+.Tags {
+  background: white;
+  border-radius: 10px;
+  padding: 1.2rem;
+  width: 508px;
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+.Tags-container {
+  margin-top: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Tags-link {
+  color:  #6bc2eb;
+  border: 1px solid #6bc2eb;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.Tags-link:hover {
+  background-color: #6bc2eb;
+  color: white;
+  transition: ease-in 0.2s;
 }

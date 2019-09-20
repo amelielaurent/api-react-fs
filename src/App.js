@@ -1,24 +1,43 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import './Ajax.js';
+import Tags from './Component/Tags';
+import flag from './flag_grey.svg';
+import share from './share_grey.svg';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="Profile">
+        <h4 className="Profile-title"></h4>
+        <div className="Profile-action">
+          <div className="Profile-help">
+            <img src={flag} className="App-picto" alt="flag" />
+            <h5>Besoin d'aide</h5>
+          </div>
+          <div className="Profile-share">
+            <img src={share} className="App-picto" alt="share" />
+            <h5>Partager un truc intéressant</h5>
+          </div>
+        </div>
+      </div>
+      <div className="Tags">
+        <h4>Ajoute des Tags pour recevoir plus d'actualités</h4>
+        <div className="Tags-container">
+          <Tags name="Design" />
+          <Tags name="Communication" />
+          <Tags name="Developpement" />
+          <Tags name="Arts" />
+        </div>
+        <div className="Tags-container">
+          <Tags name="UX Design" />
+          <Tags name="Marketing" />
+          <Tags name="Graphisme" />
+          <Tags name="Wordpress" />
+        </div>
+      </div>
+      <div className="post">
+      </div>
     </div>
   );
 }
