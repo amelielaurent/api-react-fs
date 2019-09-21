@@ -6,6 +6,8 @@ This project aims to retrieve data from a secure API and display it as posts.
 
 git clone https://github.com/amelielaurent/api-react-fs.git
 
+### `npm install`
+
 ## Start the project
 
 In the project directory, you can run:
